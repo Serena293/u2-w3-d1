@@ -12,16 +12,24 @@
     />
   </head>
   <body>
-    <h1>Form</h1>
-    <form id="form">
-      <div><label for="name">Nome</label><input id="name" /></div>
-      <div>
-        <label for="ownerName">Propietario</label><input id="ownerName" />
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex flex-column m-2">
+          <h1 class="text-center">Form</h1>
+          <form id="form">
+            <div class="row m-2"><label for="name">Nome</label><input id="name" /></div>
+            <div class="row m-2">
+              <label for="ownerName">Propietario</label><input id="ownerName" />
+            </div>
+            <div class="row m-2">
+              <label for="species">Specie </label><input id="species" />
+            </div>
+            <div class="row m-2"><label for="breed">Razza</label><input id="breed" /></div>
+            <button class="border-0 py-1 px-2 m-2">Invia</button>
+          </form>
+        </div>
       </div>
-      <div><label for="species">Specie </label><input id="species" /></div>
-      <div><label for="breed">Razza</label><input id="breed" /></div>
-      <button>Invia</button>
-    </form>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
